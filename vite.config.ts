@@ -2,7 +2,14 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: '/java_project/', // <--- أضف هذا السطر هنا باسم المستودع تماماً
+})
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],

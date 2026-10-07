@@ -1,0 +1,6 @@
+{
+  "name": "Ain Shams Science SIS - Credit Hour System",
+  "description": "Interactive Student Information & Registration System (SIS) for the Faculty of Science, Ain Shams University adhering to Credit Hour Academic Bylaws.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
